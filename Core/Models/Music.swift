@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Track: MediaItem {
+struct Music: MediaItem {
     let id: String
     let name: String
     let artists: [Artist]
