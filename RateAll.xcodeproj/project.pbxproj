@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A919226C2EF1C5A1002E91DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919226B2EF1C5A1002E91DA /* LoginView.swift */; };
 		A9A25F792EEB02DA0092AEFD /* RateAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */; };
-		A9A25F7B2EEB02DA0092AEFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25F7A2EEB02DA0092AEFD /* ContentView.swift */; };
 		A9A25F7D2EEB02DC0092AEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A25F7C2EEB02DC0092AEFD /* Assets.xcassets */; };
 		A9A25FA22EEB03D40092AEFD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FA12EEB03D40092AEFD /* Colors.swift */; };
 		A9A25FAB2EEB0E940092AEFD /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A9A25FAA2EEB0E940092AEFD /* Localizable.xcstrings */; };
@@ -32,7 +32,6 @@
 		A9A2604B2EEC502E0092AEFD /* MusicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260442EEC502E0092AEFD /* MusicDetailView.swift */; };
 		A9A2604D2EEC502E0092AEFD /* TVShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260462EEC502E0092AEFD /* TVShowDetailView.swift */; };
 		A9A260522EEC52A80092AEFD /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260512EEC52A80092AEFD /* OnboardingPage.swift */; };
-		A9A260542EEC52B10092AEFD /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260532EEC52B10092AEFD /* OnboardingPageView.swift */; };
 		A9A260562EEC52C60092AEFD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260552EEC52C60092AEFD /* OnboardingView.swift */; };
 		A9A2605F2EEC5AF50092AEFD /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2605E2EEC5AF50092AEFD /* SplashViewModel.swift */; };
 		A9A260612EEC5BC90092AEFD /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260602EEC5BC90092AEFD /* MoviesViewModel.swift */; };
@@ -62,9 +61,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A919226B2EF1C5A1002E91DA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A9A25F752EEB02DA0092AEFD /* RateAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAllApp.swift; sourceTree = "<group>"; };
-		A9A25F7A2EEB02DA0092AEFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9A25F7C2EEB02DC0092AEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A25FA12EEB03D40092AEFD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A9A25FAA2EEB0E940092AEFD /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -88,7 +87,6 @@
 		A9A260442EEC502E0092AEFD /* MusicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailView.swift; sourceTree = "<group>"; };
 		A9A260462EEC502E0092AEFD /* TVShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailView.swift; sourceTree = "<group>"; };
 		A9A260512EEC52A80092AEFD /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
-		A9A260532EEC52B10092AEFD /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
 		A9A260552EEC52C60092AEFD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A9A2605E2EEC5AF50092AEFD /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		A9A260602EEC5BC90092AEFD /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
@@ -355,7 +353,6 @@
 		A9A25FF62EEC4E970092AEFD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A9A260532EEC52B10092AEFD /* OnboardingPageView.swift */,
 				A9A260552EEC52C60092AEFD /* OnboardingView.swift */,
 			);
 			path = Views;
@@ -382,6 +379,7 @@
 		A9A2605B2EEC5A670092AEFD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A919226B2EF1C5A1002E91DA /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -478,7 +476,6 @@
 			isa = PBXGroup;
 			children = (
 				A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */,
-				A9A25F7A2EEB02DA0092AEFD /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -558,7 +555,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A260792EEC5DFF0092AEFD /* TMDBService.swift in Sources */,
-				A9A25F7B2EEB02DA0092AEFD /* ContentView.swift in Sources */,
 				A9A25FD02EEB3FA10092AEFD /* MediaItem.swift in Sources */,
 				A9A260852EEC5E8A0092AEFD /* FirestoreService.swift in Sources */,
 				A9A25FF12EEC4B0C0092AEFD /* SplashView.swift in Sources */,
@@ -573,6 +569,7 @@
 				A9A260872EEC5E920092AEFD /* StorageService.swift in Sources */,
 				A9A25FDA2EEB4BC50092AEFD /* Music.swift in Sources */,
 				A9A260562EEC52C60092AEFD /* OnboardingView.swift in Sources */,
+				A919226C2EF1C5A1002E91DA /* LoginView.swift in Sources */,
 				A9A2608C2EEC5ECA0092AEFD /* MediaRepository.swift in Sources */,
 				A9A2605F2EEC5AF50092AEFD /* SplashViewModel.swift in Sources */,
 				A9A2606F2EEC5C5A0092AEFD /* SearchViewModel.swift in Sources */,
@@ -594,7 +591,6 @@
 				A9A2604D2EEC502E0092AEFD /* TVShowDetailView.swift in Sources */,
 				A9A260922EEC5EE60092AEFD /* RatingRepository.swift in Sources */,
 				A9A25FDF2EEC49B90092AEFD /* DashboardView.swift in Sources */,
-				A9A260542EEC52B10092AEFD /* OnboardingPageView.swift in Sources */,
 				A9A260612EEC5BC90092AEFD /* MoviesViewModel.swift in Sources */,
 				A9A260632EEC5BDB0092AEFD /* TVShowsViewModel.swift in Sources */,
 				A9A25FE82EEC4AB90092AEFD /* TVShowsView.swift in Sources */,

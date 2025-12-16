@@ -105,7 +105,3 @@ extension Font {
     static var captionMedium: Font { captionMedium() }
     static var captionSmall: Font { captionSmall() }
 }
-
-#Preview {
-    ContentView()
-}
