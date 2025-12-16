@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9A25F792EEB02DA0092AEFD /* RateAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */; };
+		A9A25F7B2EEB02DA0092AEFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25F7A2EEB02DA0092AEFD /* ContentView.swift */; };
 		A9A25F7D2EEB02DC0092AEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A25F7C2EEB02DC0092AEFD /* Assets.xcassets */; };
 		A9A25FA22EEB03D40092AEFD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FA12EEB03D40092AEFD /* Colors.swift */; };
 		A9A25FAB2EEB0E940092AEFD /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A9A25FAA2EEB0E940092AEFD /* Localizable.xcstrings */; };
@@ -16,12 +17,54 @@
 		A9A25FD42EEB3FBA0092AEFD /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FD32EEB3FBA0092AEFD /* TVShow.swift */; };
 		A9A25FD62EEB3FC60092AEFD /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FD52EEB3FC60092AEFD /* Anime.swift */; };
 		A9A25FD82EEB3FD10092AEFD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FD72EEB3FD10092AEFD /* Game.swift */; };
-		A9A25FDA2EEB4BC50092AEFD /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FD92EEB4BC50092AEFD /* Track.swift */; };
+		A9A25FDA2EEB4BC50092AEFD /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FD92EEB4BC50092AEFD /* Music.swift */; };
+		A9A25FDF2EEC49B90092AEFD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FDE2EEC49B90092AEFD /* DashboardView.swift */; };
+		A9A25FE62EEC4A920092AEFD /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FE52EEC4A920092AEFD /* MoviesView.swift */; };
+		A9A25FE82EEC4AB90092AEFD /* TVShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FE72EEC4AB90092AEFD /* TVShowsView.swift */; };
+		A9A25FEA2EEC4AC50092AEFD /* AnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FE92EEC4AC50092AEFD /* AnimeView.swift */; };
+		A9A25FEC2EEC4ACE0092AEFD /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FEB2EEC4ACE0092AEFD /* GamesView.swift */; };
+		A9A25FEE2EEC4ADB0092AEFD /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FED2EEC4ADB0092AEFD /* MusicView.swift */; };
+		A9A25FF12EEC4B0C0092AEFD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FF02EEC4B0C0092AEFD /* SplashView.swift */; };
+		A9A25FF52EEC4DF90092AEFD /* TopbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A25FF42EEC4DF90092AEFD /* TopbarView.swift */; };
+		A9A260482EEC502E0092AEFD /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260412EEC502E0092AEFD /* AnimeDetailView.swift */; };
+		A9A260492EEC502E0092AEFD /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260422EEC502E0092AEFD /* GameDetailView.swift */; };
+		A9A2604A2EEC502E0092AEFD /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260432EEC502E0092AEFD /* MovieDetailView.swift */; };
+		A9A2604B2EEC502E0092AEFD /* MusicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260442EEC502E0092AEFD /* MusicDetailView.swift */; };
+		A9A2604D2EEC502E0092AEFD /* TVShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260462EEC502E0092AEFD /* TVShowDetailView.swift */; };
+		A9A260522EEC52A80092AEFD /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260512EEC52A80092AEFD /* OnboardingPage.swift */; };
+		A9A260542EEC52B10092AEFD /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260532EEC52B10092AEFD /* OnboardingPageView.swift */; };
+		A9A260562EEC52C60092AEFD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260552EEC52C60092AEFD /* OnboardingView.swift */; };
+		A9A2605F2EEC5AF50092AEFD /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2605E2EEC5AF50092AEFD /* SplashViewModel.swift */; };
+		A9A260612EEC5BC90092AEFD /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260602EEC5BC90092AEFD /* MoviesViewModel.swift */; };
+		A9A260632EEC5BDB0092AEFD /* TVShowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260622EEC5BDB0092AEFD /* TVShowsViewModel.swift */; };
+		A9A260652EEC5BE80092AEFD /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260642EEC5BE80092AEFD /* AnimeViewModel.swift */; };
+		A9A260672EEC5BF10092AEFD /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260662EEC5BF10092AEFD /* GamesViewModel.swift */; };
+		A9A260692EEC5C2B0092AEFD /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260682EEC5C2B0092AEFD /* MusicViewModel.swift */; };
+		A9A2606B2EEC5C490092AEFD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2606A2EEC5C490092AEFD /* SearchView.swift */; };
+		A9A2606D2EEC5C500092AEFD /* SearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2606C2EEC5C500092AEFD /* SearchFilterView.swift */; };
+		A9A2606F2EEC5C5A0092AEFD /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2606E2EEC5C5A0092AEFD /* SearchViewModel.swift */; };
+		A9A260772EEC5DF80092AEFD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260762EEC5DF80092AEFD /* NetworkService.swift */; };
+		A9A260792EEC5DFF0092AEFD /* TMDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260782EEC5DFF0092AEFD /* TMDBService.swift */; };
+		A9A2607B2EEC5E090092AEFD /* JikanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2607A2EEC5E090092AEFD /* JikanService.swift */; };
+		A9A2607D2EEC5E100092AEFD /* RAWGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2607C2EEC5E100092AEFD /* RAWGService.swift */; };
+		A9A2607F2EEC5E170092AEFD /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2607E2EEC5E170092AEFD /* SpotifyService.swift */; };
+		A9A260852EEC5E8A0092AEFD /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260842EEC5E8A0092AEFD /* FirestoreService.swift */; };
+		A9A260872EEC5E920092AEFD /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260862EEC5E920092AEFD /* StorageService.swift */; };
+		A9A260892EEC5E9A0092AEFD /* RealtimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260882EEC5E9A0092AEFD /* RealtimeService.swift */; };
+		A9A2608C2EEC5ECA0092AEFD /* MediaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2608B2EEC5ECA0092AEFD /* MediaRepository.swift */; };
+		A9A2608E2EEC5ED30092AEFD /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2608D2EEC5ED30092AEFD /* UserRepository.swift */; };
+		A9A260902EEC5EDA0092AEFD /* FriendshipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2608F2EEC5EDA0092AEFD /* FriendshipRepository.swift */; };
+		A9A260922EEC5EE60092AEFD /* RatingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260912EEC5EE60092AEFD /* RatingRepository.swift */; };
+		A9A260942EEC5F8E0092AEFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260932EEC5F8E0092AEFD /* User.swift */; };
+		A9A260962EEC5F960092AEFD /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260952EEC5F960092AEFD /* Rating.swift */; };
+		A9A2609A2EEC5FA10092AEFD /* Friendship.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A260992EEC5FA10092AEFD /* Friendship.swift */; };
+		A9A2609F2EEC62FA0092AEFD /* TypographyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2609E2EEC62FA0092AEFD /* TypographyStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9A25F752EEB02DA0092AEFD /* RateAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAllApp.swift; sourceTree = "<group>"; };
+		A9A25F7A2EEB02DA0092AEFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9A25F7C2EEB02DC0092AEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A25FA12EEB03D40092AEFD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A9A25FAA2EEB0E940092AEFD /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -30,16 +73,49 @@
 		A9A25FD32EEB3FBA0092AEFD /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
 		A9A25FD52EEB3FC60092AEFD /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 		A9A25FD72EEB3FD10092AEFD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		A9A25FD92EEB4BC50092AEFD /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		A9A25FD92EEB4BC50092AEFD /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		A9A25FDE2EEC49B90092AEFD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A9A25FE52EEC4A920092AEFD /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		A9A25FE72EEC4AB90092AEFD /* TVShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsView.swift; sourceTree = "<group>"; };
+		A9A25FE92EEC4AC50092AEFD /* AnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeView.swift; sourceTree = "<group>"; };
+		A9A25FEB2EEC4ACE0092AEFD /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		A9A25FED2EEC4ADB0092AEFD /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		A9A25FF02EEC4B0C0092AEFD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A9A25FF42EEC4DF90092AEFD /* TopbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopbarView.swift; sourceTree = "<group>"; };
+		A9A260412EEC502E0092AEFD /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
+		A9A260422EEC502E0092AEFD /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		A9A260432EEC502E0092AEFD /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		A9A260442EEC502E0092AEFD /* MusicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailView.swift; sourceTree = "<group>"; };
+		A9A260462EEC502E0092AEFD /* TVShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailView.swift; sourceTree = "<group>"; };
+		A9A260512EEC52A80092AEFD /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		A9A260532EEC52B10092AEFD /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		A9A260552EEC52C60092AEFD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A9A2605E2EEC5AF50092AEFD /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		A9A260602EEC5BC90092AEFD /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		A9A260622EEC5BDB0092AEFD /* TVShowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsViewModel.swift; sourceTree = "<group>"; };
+		A9A260642EEC5BE80092AEFD /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		A9A260662EEC5BF10092AEFD /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		A9A260682EEC5C2B0092AEFD /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		A9A2606A2EEC5C490092AEFD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A9A2606C2EEC5C500092AEFD /* SearchFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterView.swift; sourceTree = "<group>"; };
+		A9A2606E2EEC5C5A0092AEFD /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		A9A260762EEC5DF80092AEFD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A9A260782EEC5DFF0092AEFD /* TMDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBService.swift; sourceTree = "<group>"; };
+		A9A2607A2EEC5E090092AEFD /* JikanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JikanService.swift; sourceTree = "<group>"; };
+		A9A2607C2EEC5E100092AEFD /* RAWGService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWGService.swift; sourceTree = "<group>"; };
+		A9A2607E2EEC5E170092AEFD /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
+		A9A260842EEC5E8A0092AEFD /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		A9A260862EEC5E920092AEFD /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		A9A260882EEC5E9A0092AEFD /* RealtimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeService.swift; sourceTree = "<group>"; };
+		A9A2608B2EEC5ECA0092AEFD /* MediaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRepository.swift; sourceTree = "<group>"; };
+		A9A2608D2EEC5ED30092AEFD /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		A9A2608F2EEC5EDA0092AEFD /* FriendshipRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendshipRepository.swift; sourceTree = "<group>"; };
+		A9A260912EEC5EE60092AEFD /* RatingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingRepository.swift; sourceTree = "<group>"; };
+		A9A260932EEC5F8E0092AEFD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A9A260952EEC5F960092AEFD /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		A9A260992EEC5FA10092AEFD /* Friendship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendship.swift; sourceTree = "<group>"; };
+		A9A2609E2EEC62FA0092AEFD /* TypographyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A9A25F772EEB02DA0092AEFD /* RateAll */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RateAll;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A9A25F722EEB02DA0092AEFD /* Frameworks */ = {
@@ -55,11 +131,11 @@
 		A9A25F6C2EEB02DA0092AEFD = {
 			isa = PBXGroup;
 			children = (
+				A9A2609B2EEC5FB40092AEFD /* App */,
+				A9A260732EEC5CDA0092AEFD /* Core */,
 				A9A25F9D2EEB03A10092AEFD /* DesignSystem */,
 				A9A25F9A2EEB03700092AEFD /* Features */,
-				A9A25F992EEB033D0092AEFD /* Infrastructure */,
 				A9A25FA92EEB0E7A0092AEFD /* Resources */,
-				A9A25F772EEB02DA0092AEFD /* RateAll */,
 				A9A25F762EEB02DA0092AEFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,19 +148,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9A25F992EEB033D0092AEFD /* Infrastructure */ = {
-			isa = PBXGroup;
-			children = (
-				A9A25FA52EEB041C0092AEFD /* Storage */,
-				A9A25FA42EEB03F50092AEFD /* Service */,
-				A9A25FA32EEB03EF0092AEFD /* Navigation */,
-			);
-			path = Infrastructure;
-			sourceTree = "<group>";
-		};
 		A9A25F9A2EEB03700092AEFD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				A9A260582EEC56800092AEFD /* Auth */,
+				A9A25FDD2EEC49850092AEFD /* TopBar */,
+				A9A25FDC2EEC49710092AEFD /* Splash */,
 				A9A25FAD2EEB23100092AEFD /* Dashboard */,
 				A9A25FAC2EEB230A0092AEFD /* Onboarding */,
 			);
@@ -112,6 +181,7 @@
 		A9A25FA02EEB03B60092AEFD /* Typography */ = {
 			isa = PBXGroup;
 			children = (
+				A9A2609E2EEC62FA0092AEFD /* TypographyStyle.swift */,
 			);
 			path = Typography;
 			sourceTree = "<group>";
@@ -126,9 +196,8 @@
 		A9A25FA42EEB03F50092AEFD /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				A9A25FB12EEB24A40092AEFD /* Rawg */,
-				A9A25FB02EEB24970092AEFD /* Tmdb */,
-				A9A25FAF2EEB248C0092AEFD /* Jikan */,
+				A9A260812EEC5E5F0092AEFD /* Firebase */,
+				A9A260802EEC5E5B0092AEFD /* API */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -150,7 +219,6 @@
 		A9A25FA92EEB0E7A0092AEFD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */,
 				A9A25F7C2EEB02DC0092AEFD /* Assets.xcassets */,
 				A9A25FAA2EEB0E940092AEFD /* Localizable.xcstrings */,
 			);
@@ -160,6 +228,8 @@
 		A9A25FAC2EEB230A0092AEFD /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				A9A260502EEC529C0092AEFD /* Model */,
+				A9A25FF62EEC4E970092AEFD /* Views */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -167,43 +237,250 @@
 		A9A25FAD2EEB23100092AEFD /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				A9A25FB22EEB346D0092AEFD /* Models */,
+				A9A25FDE2EEC49B90092AEFD /* DashboardView.swift */,
+				A9A25FE02EEC49C20092AEFD /* Movies */,
+				A9A25FE12EEC49CD0092AEFD /* TVShows */,
+				A9A25FE22EEC49D50092AEFD /* Animes */,
+				A9A25FE32EEC49EC0092AEFD /* Games */,
+				A9A25FE42EEC49F80092AEFD /* Musics */,
 			);
 			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		A9A25FAF2EEB248C0092AEFD /* Jikan */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Jikan;
-			sourceTree = "<group>";
-		};
-		A9A25FB02EEB24970092AEFD /* Tmdb */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tmdb;
-			sourceTree = "<group>";
-		};
-		A9A25FB12EEB24A40092AEFD /* Rawg */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Rawg;
 			sourceTree = "<group>";
 		};
 		A9A25FB22EEB346D0092AEFD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A9A25FCF2EEB3FA10092AEFD /* MediaItem.swift */,
+				A9A260752EEC5D040092AEFD /* Protocols */,
 				A9A25FD12EEB3FAB0092AEFD /* Movie.swift */,
 				A9A25FD32EEB3FBA0092AEFD /* TVShow.swift */,
 				A9A25FD52EEB3FC60092AEFD /* Anime.swift */,
 				A9A25FD72EEB3FD10092AEFD /* Game.swift */,
-				A9A25FD92EEB4BC50092AEFD /* Track.swift */,
+				A9A25FD92EEB4BC50092AEFD /* Music.swift */,
+				A9A260932EEC5F8E0092AEFD /* User.swift */,
+				A9A260952EEC5F960092AEFD /* Rating.swift */,
+				A9A260992EEC5FA10092AEFD /* Friendship.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A9A25FDC2EEC49710092AEFD /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FF02EEC4B0C0092AEFD /* SplashView.swift */,
+				A9A2605E2EEC5AF50092AEFD /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A9A25FDD2EEC49850092AEFD /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FF42EEC4DF90092AEFD /* TopbarView.swift */,
+				A9A25FF32EEC4C050092AEFD /* Search */,
+				A9A25FF22EEC4BFE0092AEFD /* Profile */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		A9A25FE02EEC49C20092AEFD /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FE52EEC4A920092AEFD /* MoviesView.swift */,
+				A9A260432EEC502E0092AEFD /* MovieDetailView.swift */,
+				A9A260602EEC5BC90092AEFD /* MoviesViewModel.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		A9A25FE12EEC49CD0092AEFD /* TVShows */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FE72EEC4AB90092AEFD /* TVShowsView.swift */,
+				A9A260462EEC502E0092AEFD /* TVShowDetailView.swift */,
+				A9A260622EEC5BDB0092AEFD /* TVShowsViewModel.swift */,
+			);
+			path = TVShows;
+			sourceTree = "<group>";
+		};
+		A9A25FE22EEC49D50092AEFD /* Animes */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FE92EEC4AC50092AEFD /* AnimeView.swift */,
+				A9A260412EEC502E0092AEFD /* AnimeDetailView.swift */,
+				A9A260642EEC5BE80092AEFD /* AnimeViewModel.swift */,
+			);
+			path = Animes;
+			sourceTree = "<group>";
+		};
+		A9A25FE32EEC49EC0092AEFD /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FEB2EEC4ACE0092AEFD /* GamesView.swift */,
+				A9A260422EEC502E0092AEFD /* GameDetailView.swift */,
+				A9A260662EEC5BF10092AEFD /* GamesViewModel.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		A9A25FE42EEC49F80092AEFD /* Musics */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FED2EEC4ADB0092AEFD /* MusicView.swift */,
+				A9A260442EEC502E0092AEFD /* MusicDetailView.swift */,
+				A9A260682EEC5C2B0092AEFD /* MusicViewModel.swift */,
+			);
+			path = Musics;
+			sourceTree = "<group>";
+		};
+		A9A25FF22EEC4BFE0092AEFD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A9A260722EEC5C7C0092AEFD /* Models */,
+				A9A260712EEC5C6D0092AEFD /* ViewModels */,
+				A9A260702EEC5C680092AEFD /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A9A25FF32EEC4C050092AEFD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2606A2EEC5C490092AEFD /* SearchView.swift */,
+				A9A2606C2EEC5C500092AEFD /* SearchFilterView.swift */,
+				A9A2606E2EEC5C5A0092AEFD /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A9A25FF62EEC4E970092AEFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9A260532EEC52B10092AEFD /* OnboardingPageView.swift */,
+				A9A260552EEC52C60092AEFD /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9A260502EEC529C0092AEFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9A260512EEC52A80092AEFD /* OnboardingPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9A260582EEC56800092AEFD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2605D2EEC5ADE0092AEFD /* Services */,
+				A9A2605C2EEC5A720092AEFD /* ViewModels */,
+				A9A2605B2EEC5A670092AEFD /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A9A2605B2EEC5A670092AEFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9A2605C2EEC5A720092AEFD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A9A2605D2EEC5ADE0092AEFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A9A260702EEC5C680092AEFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9A260712EEC5C6D0092AEFD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A9A260722EEC5C7C0092AEFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9A260732EEC5CDA0092AEFD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2608A2EEC5EB80092AEFD /* Repositories */,
+				A9A25FA32EEB03EF0092AEFD /* Navigation */,
+				A9A25FA42EEB03F50092AEFD /* Service */,
+				A9A25FA52EEB041C0092AEFD /* Storage */,
+				A9A25FB22EEB346D0092AEFD /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A9A260752EEC5D040092AEFD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25FCF2EEB3FA10092AEFD /* MediaItem.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A9A260802EEC5E5B0092AEFD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A9A260762EEC5DF80092AEFD /* NetworkService.swift */,
+				A9A260782EEC5DFF0092AEFD /* TMDBService.swift */,
+				A9A2607A2EEC5E090092AEFD /* JikanService.swift */,
+				A9A2607C2EEC5E100092AEFD /* RAWGService.swift */,
+				A9A2607E2EEC5E170092AEFD /* SpotifyService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A9A260812EEC5E5F0092AEFD /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A9A260842EEC5E8A0092AEFD /* FirestoreService.swift */,
+				A9A260862EEC5E920092AEFD /* StorageService.swift */,
+				A9A260882EEC5E9A0092AEFD /* RealtimeService.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		A9A2608A2EEC5EB80092AEFD /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2608B2EEC5ECA0092AEFD /* MediaRepository.swift */,
+				A9A2608D2EEC5ED30092AEFD /* UserRepository.swift */,
+				A9A2608F2EEC5EDA0092AEFD /* FriendshipRepository.swift */,
+				A9A260912EEC5EE60092AEFD /* RatingRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A9A2609B2EEC5FB40092AEFD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A9A25F782EEB02DA0092AEFD /* RateAllApp.swift */,
+				A9A25F7A2EEB02DA0092AEFD /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +497,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A9A25F772EEB02DA0092AEFD /* RateAll */,
 			);
 			name = RateAll;
 			packageProductDependencies = (
@@ -283,14 +557,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A260792EEC5DFF0092AEFD /* TMDBService.swift in Sources */,
+				A9A25F7B2EEB02DA0092AEFD /* ContentView.swift in Sources */,
 				A9A25FD02EEB3FA10092AEFD /* MediaItem.swift in Sources */,
+				A9A260852EEC5E8A0092AEFD /* FirestoreService.swift in Sources */,
+				A9A25FF12EEC4B0C0092AEFD /* SplashView.swift in Sources */,
+				A9A25FEC2EEC4ACE0092AEFD /* GamesView.swift in Sources */,
+				A9A25FE62EEC4A920092AEFD /* MoviesView.swift in Sources */,
+				A9A25FEA2EEC4AC50092AEFD /* AnimeView.swift in Sources */,
 				A9A25FD42EEB3FBA0092AEFD /* TVShow.swift in Sources */,
 				A9A25FD62EEB3FC60092AEFD /* Anime.swift in Sources */,
+				A9A260672EEC5BF10092AEFD /* GamesViewModel.swift in Sources */,
+				A9A25FEE2EEC4ADB0092AEFD /* MusicView.swift in Sources */,
 				A9A25FA22EEB03D40092AEFD /* Colors.swift in Sources */,
-				A9A25FDA2EEB4BC50092AEFD /* Track.swift in Sources */,
+				A9A260872EEC5E920092AEFD /* StorageService.swift in Sources */,
+				A9A25FDA2EEB4BC50092AEFD /* Music.swift in Sources */,
+				A9A260562EEC52C60092AEFD /* OnboardingView.swift in Sources */,
+				A9A2608C2EEC5ECA0092AEFD /* MediaRepository.swift in Sources */,
+				A9A2605F2EEC5AF50092AEFD /* SplashViewModel.swift in Sources */,
+				A9A2606F2EEC5C5A0092AEFD /* SearchViewModel.swift in Sources */,
 				A9A25F792EEB02DA0092AEFD /* RateAllApp.swift in Sources */,
+				A9A260962EEC5F960092AEFD /* Rating.swift in Sources */,
+				A9A260942EEC5F8E0092AEFD /* User.swift in Sources */,
+				A9A25FF52EEC4DF90092AEFD /* TopbarView.swift in Sources */,
+				A9A260482EEC502E0092AEFD /* AnimeDetailView.swift in Sources */,
+				A9A260492EEC502E0092AEFD /* GameDetailView.swift in Sources */,
+				A9A2607D2EEC5E100092AEFD /* RAWGService.swift in Sources */,
+				A9A2604A2EEC502E0092AEFD /* MovieDetailView.swift in Sources */,
+				A9A2607F2EEC5E170092AEFD /* SpotifyService.swift in Sources */,
+				A9A260772EEC5DF80092AEFD /* NetworkService.swift in Sources */,
+				A9A260902EEC5EDA0092AEFD /* FriendshipRepository.swift in Sources */,
+				A9A260892EEC5E9A0092AEFD /* RealtimeService.swift in Sources */,
+				A9A2609F2EEC62FA0092AEFD /* TypographyStyle.swift in Sources */,
+				A9A2604B2EEC502E0092AEFD /* MusicDetailView.swift in Sources */,
+				A9A260652EEC5BE80092AEFD /* AnimeViewModel.swift in Sources */,
+				A9A2604D2EEC502E0092AEFD /* TVShowDetailView.swift in Sources */,
+				A9A260922EEC5EE60092AEFD /* RatingRepository.swift in Sources */,
+				A9A25FDF2EEC49B90092AEFD /* DashboardView.swift in Sources */,
+				A9A260542EEC52B10092AEFD /* OnboardingPageView.swift in Sources */,
+				A9A260612EEC5BC90092AEFD /* MoviesViewModel.swift in Sources */,
+				A9A260632EEC5BDB0092AEFD /* TVShowsViewModel.swift in Sources */,
+				A9A25FE82EEC4AB90092AEFD /* TVShowsView.swift in Sources */,
 				A9A25FD22EEB3FAB0092AEFD /* Movie.swift in Sources */,
+				A9A2608E2EEC5ED30092AEFD /* UserRepository.swift in Sources */,
+				A9A2609A2EEC5FA10092AEFD /* Friendship.swift in Sources */,
+				A9A2606D2EEC5C500092AEFD /* SearchFilterView.swift in Sources */,
+				A9A2606B2EEC5C490092AEFD /* SearchView.swift in Sources */,
+				A9A2607B2EEC5E090092AEFD /* JikanService.swift in Sources */,
+				A9A260692EEC5C2B0092AEFD /* MusicViewModel.swift in Sources */,
 				A9A25FD82EEB3FD10092AEFD /* Game.swift in Sources */,
+				A9A260522EEC52A80092AEFD /* OnboardingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +751,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +760,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = litorx.RateAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -467,6 +788,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +797,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = litorx.RateAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;

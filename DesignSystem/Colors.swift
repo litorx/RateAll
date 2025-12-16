@@ -18,17 +18,34 @@ struct AppColors{
     let accent2: Color
     let textPrimary: Color
     let textSecondary: Color
+    let textTertiary: Color
+    let progressBarBackground: Color
+    
+    
+    var backgroundGradient: LinearGradient {
+        LinearGradient(colors: [bgStart, bgEnd], startPoint: .bottom, endPoint: .top)
+    }
+    
+    var cardsGradient: LinearGradient {
+        LinearGradient(colors: [cardStart, cardEnd], startPoint: .bottom, endPoint: .top)
+    }
     
     static let dark = AppColors(
         
-        bgStart: Color(hex: "0A0E27"),
-        bgEnd: Color(hex: "0A0E27"),
-        cardStart: Color (hex: "1C2447"),
-        cardEnd: Color(hex: "1C2447"),
-        accent1: Color(hex: "FFD700"),
-        accent2: Color(hex: "6C5CE7"),
-        textPrimary: Color(hex: "FFFFFF"),
-        textSecondary: Color(hex: "A0A0B8")
+
+        bgStart: Color(hex: "0B0B0F"),
+        bgEnd: Color(hex: "1C1C21"),
+        cardStart: Color(hex: "18181D"),
+        cardEnd: Color(hex: "2A2A35"),
+        accent1: Color(hex: "FF3366"),
+        accent2: Color(hex: "00FFC6"),
+        textPrimary: Color(hex: "FAFAFA"),
+        textSecondary: Color(hex: "D5D5D9"),
+        textTertiary: Color(hex: "B0B0B8"),
+        progressBarBackground: Color(hex: "#40FFFFFF")
+        
+        
+
         
     )
     
@@ -59,3 +76,7 @@ struct AppColors{
             )
         }
     }
+
+#Preview {
+    SplashView()
+}
