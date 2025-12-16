@@ -26,7 +26,7 @@ struct OnboardingView: View {
                         Capsule()
                             .fill(pageIndex == currentPage ? AppColors.dark.accent1 : AppColors.dark.progressBarBackground)
                             .frame(width: pageIndex == currentPage ? 95 : 70, height: 7)
-                            .animation(.easeInOut(duration: 0.3), value: currentPage)
+                            .animation(.easeInOut(duration: 0.28), value: currentPage)
                     }
                 }
                 .frame(height: 40)
@@ -103,6 +103,7 @@ struct OnboardingView: View {
                             .padding(.horizontal, 32)
                             .padding(.bottom, 50)
                         }
+                        .background(Color.clear)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .tag(index)
                     }
