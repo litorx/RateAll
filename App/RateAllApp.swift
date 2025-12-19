@@ -6,12 +6,23 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct RateAllApp: App {
+    @StateObject private var authState = AuthState()
+    
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            ZStack {
+                AppColors.dark.backgroundGradient
+                    .ignoresSafeArea()
+                RootView()
+                    .environmentObject(authState)
+            }
         }
     }
 }

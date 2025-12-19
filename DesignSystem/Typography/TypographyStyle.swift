@@ -24,6 +24,10 @@ extension EnvironmentValues {
 extension Font {
     
     // MARK: Display (Títulos grandes - Onboarding, Splash)
+    static func displayGiga(scale: CGFloat = 1.0) -> Font {
+        Font.system(size: 44 * scale, weight: .regular, design: .rounded)
+    }
+    
     static func displayLarge(scale: CGFloat = 1.0) -> Font {
         Font.system(size: 34 * scale, weight: .bold, design: .rounded)
     }

@@ -9,12 +9,14 @@ import SwiftUI
 
 struct OnboardingView: View {
     @State private var currentPage: Int = 0
-    
     let pages: [(image: String, title: LocalizedStringKey, textBody: LocalizedStringKey)] = [
         (image: "OnboardingIlustration1", title: "onboardingTextTitle1", textBody: "onboardingTextBody1"),
         (image: "OnboardingIlustration2", title: "onboardingTextTitle2", textBody: "onboardingTextBody2"),
         (image: "OnboardingIlustration3", title: "onboardingTextTitle3", textBody: "onboardingTextBody3")
     ]
+    
+
+    var onFinish: (() -> Void)? = nil
 
     var body: some View {
         ZStack {
@@ -64,29 +66,29 @@ struct OnboardingView: View {
                                 .padding(.horizontal, 16)
                                 .frame(minHeight: 90, alignment: .center)
                             
-                            
-                            
-                            
                             Spacer(minLength: 30)
                             
-                            
                             VStack(spacing: 16) {
+
                                 Button(action: {
                                     if currentPage < pages.count - 1 {
                                         withAnimation {
                                             currentPage += 1
                                         }
+                                    } else {
+
+                                        onFinish?()
                                     }
                                 }) {
-                                    Text("onboardingButtonContinue")
+                                    Text(currentPage == pages.count - 1 ? "onboardingButtonStart" : "onboardingButtonContinue")
                                         .foregroundColor(AppColors.dark.textPrimary)
                                         .font(Font.headlineMedium)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 18)
                                         .background(AppColors.dark.accent1)
                                         .cornerRadius(30)
+                                        
                                 }
-                                
                                 Button(action: {
                                     if currentPage > 0 {
                                         withAnimation {

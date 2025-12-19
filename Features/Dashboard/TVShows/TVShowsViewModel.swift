@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+
+let test: Int = 10

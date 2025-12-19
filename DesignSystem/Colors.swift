@@ -14,6 +14,8 @@ struct AppColors{
     let bgEnd: Color
     let cardStart: Color
     let cardEnd: Color
+    let searchStart: Color
+    let searchEnd: Color
     let accent1: Color
     let accent2: Color
     let textPrimary: Color
@@ -30,6 +32,14 @@ struct AppColors{
         LinearGradient(colors: [cardStart, cardEnd], startPoint: .bottom, endPoint: .top)
     }
     
+    var searchGradient: LinearGradient {
+        LinearGradient(colors: [searchStart, searchEnd], startPoint: .bottom, endPoint: .top)
+    }
+    
+    var reverseSearchGradient: LinearGradient {
+        LinearGradient(colors: [searchEnd, searchStart], startPoint: .bottom, endPoint: .top)
+    }
+    
     static let dark = AppColors(
         
 
@@ -37,6 +47,8 @@ struct AppColors{
         bgEnd: Color(hex: "1C1C21"),
         cardStart: Color(hex: "18181D"),
         cardEnd: Color(hex: "2A2A35"),
+        searchStart: Color(hex: "222229"),
+        searchEnd: Color(hex: "34343E"),
         accent1: Color(hex: "FF3366"),
         accent2: Color(hex: "00FFC6"),
         textPrimary: Color(hex: "FAFAFA"),
@@ -79,5 +91,5 @@ struct AppColors{
     }
 
 #Preview {
-    SplashView()
+    DashboardView()
 }

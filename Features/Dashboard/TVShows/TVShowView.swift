@@ -1,5 +1,5 @@
 //
-//  GamesView.swift
+//  TVShowView.swift
 //  RateAll
 //
 //  Created by Vitor de Souza Nascimento on 19/12/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct GamesView: View {
+struct TVShowView: View {
     var body: some View {
-        Text("Tela de jogos")
+        Text("Tela de serie")
     }
 }
 
 #Preview {
-    GamesView()
+    TVShowView()
 }
